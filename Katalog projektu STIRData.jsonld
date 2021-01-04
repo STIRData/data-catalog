@@ -1,0 +1,63 @@
+{
+  "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/draft/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://stirdata.opendata.cz/resource/dataset/catalog",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Katalog projektu STIRData",
+    "en": "STIRData project catalog"
+  },
+  "popis": {
+    "cs": "Katalog datových sad použitých v projektu STIRData",
+    "en": "Catalog of datasets used in STIRData"
+  },
+  "prvek_rúian": [],
+  "geografické_území": [
+    "http://publications.europa.eu/resource/authority/continent/EUROPE"
+  ],
+  "prostorové_pokrytí": [],
+  "klíčové_slovo": {
+    "cs": [
+      "katalog"
+    ],
+    "en": [
+      "catalog"
+    ]
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/MONTHLY",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+  ],
+  "koncept_euroVoc": [],
+  "kontaktní_bod": {},
+  "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208",
+  "distribuce": [
+    {
+      "typ": "Distribuce",
+      "iri": "https://stirdata.opendata.cz/resource/dataset/catalog/distribuce/1",
+      "název": {
+        "cs": "SPARQL endpoint",
+        "en": "SPARQL endpoint"
+      },
+      "přístupové_url": "https://stirdata.opendata.cz/sparql",
+      "přístupová_služba": {
+        "typ": "Datová služba",
+        "přístupový_bod": "https://stirdata.opendata.cz/sparql",
+        "popis_přístupového_bodu": "https://stirdata.opendata.cz/sparql",
+        "iri": "https://stirdata.opendata.cz/resource/dataset/catalog/distribuce/1/přístupová-služba",
+        "název": {
+          "cs": "SPARQL endpoint",
+          "en": "SPARQL endpoint"
+        },
+        "poskytuje_datovou_sadu": "https://stirdata.opendata.cz/resource/dataset/catalog",
+        "specifikace": "https://www.w3.org/TR/sparql11-protocol/"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      }
+    }
+  ]
+}
