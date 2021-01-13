@@ -1,0 +1,289 @@
+@prefix dcatapi: <http://dcat.no/dcatapi/> .
+@prefix adms:  <http://www.w3.org/ns/adms#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcatno: <http://difi.no/dcatno#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dqv:   <http://www.w3.org/ns/dqvNS#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/ade9bd09-dc94-4c0f-9c6f-8e9c5a4f8b55>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/51737" ;
+        skos:definition  "nedarvet bruksnavn, navn på en institusjon eller bygning eller grend brukt som del av den offisielle adressen"@nb ;
+        skos:prefLabel   "adressetilleggsnavn"@nb .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/72a378d8-cc99-4c4d-9241-2e4236ba432f>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/51735" ;
+        skos:definition  "adresse for en bygning, bruksenhet, eiendom eller annet objekt som har adressenavn og adressenummer"@nb ;
+        skos:prefLabel   "vegadresse"@nb .
+
+<http://data.brreg.no/enhetsregisteret/enhet/974760673.json>
+        a          foaf:Agent ;
+        foaf:name  "REGISTERENHETEN I BRØNNØYSUND" .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/b6e22d3d-b0e6-4bc5-8300-85c3647a762b>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/43223" ;
+        skos:definition  "virksomhet på laveste nivå i registreringsstrukturen i Enhetsregisteret"@nb ;
+        skos:prefLabel   "underenhet"@nb .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/8cf3850c-9ebd-4d48-b40f-667206605808>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/43190" ;
+        skos:definition  "grunndataregister som tildeler organisasjonsnummer"@nb ;
+        skos:prefLabel   "Enhetsregisteret"@nb .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/ad177f07-3fdc-4031-be9a-97eb18aa0234>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/53474" ;
+        skos:definition  "firesifret kode som identifiserer et postnummerområde"@nb ;
+        skos:prefLabel   "postnummer"@nb .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/60113aac-2dd4-4272-8ad2-c3ede5b4b096>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/52204" ;
+        skos:definition  "geografisk inndeling av postmottakere"@nb ;
+        skos:prefLabel   "poststed"@nb .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/2be0be63-e778-4020-87e3-89ae87f9de2f>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/72637" ;
+        skos:definition  "person som utfører revisjon og slik kontrollerer at de økonomiske forholdene i en virksomhet er i henhold til gjeldende lover og regler"@nb ;
+        skos:prefLabel   "revisor"@nb .
+
+<http://brreg.no/catalogs/974760673/datasets/ef600ed8-cba1-4bc4-863f-6d41c836f18c>
+        a                               dcat:Dataset ;
+        dcatno:legalBasisForAccess      [ a               dct:RightsStatement , skos:Concept ;
+                                          dct:source      "https://lovdata.no/dokument/NL/lov/1994-06-03-15/KAPITTEL_6#§22" ;
+                                          skos:prefLabel  "Lov om Enhetsregisteret §22"@nb
+                                        ] ;
+        dcatno:legalBasisForAccess      [ a               dct:RightsStatement , skos:Concept ;
+                                          dct:source      "https://lovdata.no/dokument/SF/forskrift/2015-12-11-1668/§6#§6" ;
+                                          skos:prefLabel  "Forskrift om gebyr til Brønnøysundregistrene §6"@nb
+                                        ] ;
+        dcatno:legalBasisForProcessing  [ a               dct:RightsStatement , skos:Concept ;
+                                          dct:source      "https://lovdata.no/dokument/NL/lov/1994-06-03-15/KAPITTEL_2#§6" ;
+                                          skos:prefLabel  "Lov om Enhetsregisteret §6"@nb
+                                        ] ;
+        dcatno:legalBasisForProcessing  [ a               dct:RightsStatement , skos:Concept ;
+                                          dct:source      "https://lovdata.no/dokument/NL/lov/1994-06-03-15/KAPITTEL_2#§5" ;
+                                          skos:prefLabel  "Lov om Enhetsregisteret §5"@nb
+                                        ] ;
+        dcatno:legalBasisForRestriction
+                [ a               dct:RightsStatement , skos:Concept ;
+                  dct:source      "https://lovdata.no/dokument/NL/lov/1994-06-03-15/KAPITTEL_6#§22" ;
+                  skos:prefLabel  "Lov om Enhetsregisteret §22"@nb
+                ] ;
+        dcatno:objective                "Enhetsregisteret samordner grunndata om virksomheter i næringslivet og offentlig sektor som finnes i ulike offentlige registre, og skal entydig identifisere virksomhetene ved tildeling av organisasjonsnummer. \nPersonopplysninger benyttes for å kunne entydig identifisere roller og ansvar hos virksomhetene.\n"@nb ;
+        dct:accessRights                <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:accrualPeriodicity          <http://publications.europa.eu/resource/authority/frequency/CONT> ;
+        dct:description                 "Datasettet fra Enhetsregisteret inneholder informasjon om alle registrerte virksomheter innen næringsliv, offentlig- og frivillig sektor. Enhetsregisteret inneholder personopplysninger. Datasettet har derfor begrenset offentlighet. Det finnes imidlertid distribusjoner som leveres uten personopplysninger og som derfor er offentlig tilgjengelig. Se under \"Distribusjoner\" for mer informasjon.\n\n"@nb ;
+        dct:language                    <http://publications.europa.eu/resource/authority/language/NOR> ;
+        dct:provenance                  <http://data.brreg.no/datakatalog/provinens/nasjonal> ;
+        dct:publisher                   <http://data.brreg.no/enhetsregisteret/enhet/974760673.json> ;
+        dct:relation                    <http://brreg.no/catalogs/974760673/datasets/738d67e0-da45-4535-b006-66402eaf371f> , <http://brreg.no/catalogs/974760673/datasets/c50854ed-e754-462b-9cfc-9d1df0cb57fd> , <http://brreg.no/catalogs/974760673/datasets/4f87729a-1ef3-4f79-9866-832df00dc075> , <http://brreg.no/catalogs/974760673/datasets/63086dda-9b72-43f0-bbc2-3ced4bc2edd6> ;
+        dct:relation                    [ a  <http://www.w3.org/2000/01/rdf-schema#Resource> ] ;
+        dct:subject                     <https://fellesdatakatalog.brreg.no/api/concepts/1d1c39d9-0e33-46e3-a768-57536997f1a3> , <https://fellesdatakatalog.brreg.no/api/concepts/7af763ec-fd42-415f-9ef2-9571b25f23a4> , <https://fellesdatakatalog.brreg.no/api/concepts/de5b25ad-521f-4fbd-af51-7486129c6a6f> , <https://fellesdatakatalog.brreg.no/api/concepts/0684bc25-1787-42b0-ae2a-732de4b32274> , <https://fellesdatakatalog.brreg.no/api/concepts/d0d17b2f-6348-4800-9601-7476e565fa69> , <https://fellesdatakatalog.brreg.no/api/concepts/b8e71785-997b-45e9-aadc-057160482fae> , <https://fellesdatakatalog.brreg.no/api/concepts/72a378d8-cc99-4c4d-9241-2e4236ba432f> , <https://fellesdatakatalog.brreg.no/api/concepts/70292128-09f5-4db9-bc72-967442bfbb45> , <https://fellesdatakatalog.brreg.no/api/concepts/ade9bd09-dc94-4c0f-9c6f-8e9c5a4f8b55> , <https://fellesdatakatalog.brreg.no/api/concepts/ad177f07-3fdc-4031-be9a-97eb18aa0234> , <https://fellesdatakatalog.brreg.no/api/concepts/2eb14f3e-53d8-4379-aa42-130c96dd49fd> , <https://fellesdatakatalog.brreg.no/api/concepts/b6e22d3d-b0e6-4bc5-8300-85c3647a762b> , <https://fellesdatakatalog.brreg.no/api/concepts/eecd1d2e-83f4-45ad-a8e0-09032ae422f6> , <https://fellesdatakatalog.brreg.no/api/concepts/2be0be63-e778-4020-87e3-89ae87f9de2f> , <https://fellesdatakatalog.brreg.no/api/concepts/ab5b81db-a47d-4666-838b-3aac4cbe8bd9> , <https://fellesdatakatalog.brreg.no/api/concepts/bdbf5d43-9407-469d-b129-2b9c3ecb0951> , <https://fellesdatakatalog.brreg.no/api/concepts/b133dbfb-65d7-4ab6-8792-0046a20a81ff> , <https://fellesdatakatalog.brreg.no/api/concepts/8cf3850c-9ebd-4d48-b40f-667206605808> , <https://fellesdatakatalog.brreg.no/api/concepts/3a2deaf3-c09a-487b-bb6a-92f1306cd709> , <https://fellesdatakatalog.brreg.no/api/concepts/60113aac-2dd4-4272-8ad2-c3ede5b4b096> , <https://fellesdatakatalog.brreg.no/api/concepts/cc7ff4a0-32ad-41f8-8cb6-90615055c904> , <https://fellesdatakatalog.brreg.no/api/concepts/43b2a308-1f93-472b-99d8-ede1801dd39e> , <https://fellesdatakatalog.brreg.no/api/concepts/f6639f5e-280e-4dbb-991e-3faca3bf622c> ;
+        dct:title                       "Enhetsregisteret"@nb ;
+        dct:type                        "Data" ;
+        adms:sample                     [ a  dcat:Distribution ] ;
+        dcat:contactPoint               [ a                        vcard:Organization ;
+                                          vcard:hasEmail           <mailto:OA-fagstillinger@brreg.no> ;
+                                          vcard:organization-unit  "Brønnøysundregistrene "
+                                        ] ;
+        dcat:distribution               [ a                dcat:Distribution ;
+                                          dct:description  "Tjenesten gir en utvidet tilgang til opplysninger fra Enhets- og Foretaksregisteret som blant annet inneholder roller og signatur/prokura- bestemmelser. Offentlig forvaltning og kredittopplysningsforetak har tilgang til fødselsnummer på roller og signatur/prokura. Alle andre har tilgang til fødselsdato. Denne tjenesten er gratis for virksomheter i offentlig forvaltning, mens private virksomheter må betale for data. Alle må tegne avtale for å få tilgang."@nb ;
+                                          dct:format       "application/xml" ;
+                                          dct:title        "Tilgang til Enhetsregisteret via Web Services "@nb ;
+                                          dcat:accessURL   <https://www.brreg.no/produkter-og-tjenester/bestille-produkter/maskinlesbare-data-enhetsregisteret/full-tilgang-enhetsregisteret/> ;
+                                          foaf:page        [ a           foaf:Document , skos:Concept ;
+                                                             dct:source  "https://www.brreg.no/produkter-og-tjenester/bestille-produkter/maskinlesbare-data-enhetsregisteret/full-tilgang-enhetsregisteret/teknisk-dokumentasjon-for-maskinell-tilgang-til-enhetsregisteret/"
+                                                           ]
+                                        ] ;
+        dcat:distribution               [ a                dcat:Distribution ;
+                                          dct:description  "Datasett som inneholder sektorkoder som brukes til institusjonell sektorgruppering i Norge. Institusjonell sektorgruppering er en statistisk standard, som benyttes i nasjonalregnskapet, men også i annen statistikk og i økonomiske analyser. Opplysningene inngår i datasettet for Enhetsregisteret. Denne tjenesten tilbyr både manuelle og maskinelle oppslag, samt nedlastning av datasettet. "@nb ;
+                                          dct:format       "text/csv" , "application/json" , "application/javascript" , "application/x.yaml" , "application/xml" ;
+                                          dct:title        "Sektorkoder i Enhetsregisteret"@nb ;
+                                          foaf:page        [ a           foaf:Document , skos:Concept ;
+                                                             dct:source  "https://hotell.difi.no/application.wadl"
+                                                           ]
+                                        ] ;
+        dcat:distribution               [ a                 dcat:Distribution ;
+                                          dct:description   "Denne tjenesten tilbyr både manuelle og maskinelle oppslag, samt nedlasting av datasettet. Tjenesten er delt i to ulike datasett, hovedenheter og underenheter, og presenterer utvalgte dataelement fra Enhets- og Foretaksregisteret. "@nb ;
+                                          dct:format        "application/json" , "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" ;
+                                          dct:title         "Data fra Enhetsregisteret"@nb ;
+                                          dcat:accessURL    <https://data.brreg.no/enhetsregisteret/oppslag/enheter> ;
+                                          dcat:downloadURL  <https://data.brreg.no/enhetsregisteret/oppslag/enheter> ;
+                                          foaf:page         [ a           foaf:Document , skos:Concept ;
+                                                              dct:source  "https://data.brreg.no/enhetsregisteret/api/docs/index.html"
+                                                            ]
+                                        ] ;
+        dcat:distribution               [ a                dcat:Distribution ;
+                                          dct:description  "Denne tjenesten tilbyr både manuelle og maskinelle oppslag, samt nedlasting av datasettet. "@nb ;
+                                          dct:format       "application/xml" , "text/csv" , "application/json" , "application/javascript" , "application/x.yaml" ;
+                                          dct:title        "Næringskoder i Enhetsregisteret"@nb ;
+                                          dcat:accessURL   <https://hotell.difi.no/?dataset=brreg/naeringskode> ;
+                                          foaf:page        [ a           foaf:Document , skos:Concept ;
+                                                             dct:source  "https://hotell.difi.no/application.wadl"
+                                                           ]
+                                        ] ;
+        dcat:distribution               [ a                dcat:Distribution ;
+                                          dct:description  "Her finner du en oversikt over de ulike organisasjonsformene vi registrerer, med norsk og engelsk beskrivelse.\n\n "@nb ;
+                                          dct:format       "text/html" ;
+                                          dct:title        "Organisasjonsformer i Enhetsregisteret"@nb ;
+                                          dcat:accessURL   <https://www.brreg.no/bedrift/organisasjonsformer/> ;
+                                          foaf:page        [ a           foaf:Document , skos:Concept ;
+                                                             dct:source  "https://www.brreg.no/bedrift/organisasjonsformer/"
+                                                           ]
+                                        ] ;
+        dcat:keyword                    "Virksomhet"@nb , "Underenhet"@nb , "Foretaksregisteret"@nb , "Enhet"@nb , "Rolleopplysninger"@nb , "Brønnøysundregistrene"@nb , "Foretak"@nb , "Styremedlem"@nb , "Næringsliv"@nb , "Bedrift"@nb , "organisasjonsform "@nb , "Grunndata"@nb , "Daglig leder"@nb ;
+        dcat:landingPage                <https://www.brreg.no/om-oss/oppgavene-vare/alle-registrene-vare/om-enhetsregisteret/> ;
+        dcat:theme                      <http://publications.europa.eu/resource/authority/data-theme/JUST> , <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
+        <http://www.w3.org/ns/dqv#hasQualityAnnotation>
+                [ a             <http://www.w3.org/ns/dqv#QualityAnnotation> ;
+                  <http://www.w3.org/ns/dqv#inDimension>
+                          <iso:Currentness> ;
+                  prov:hasBody  [ rdf:value  "Antall ansatte oppdateres ca. den 10. hver måned. \nMVA oppdateres en gang i døgnet.\nDaglig oppdatering fra Folkeregisteret og Matrikkelen."@nb ]
+                ] ;
+        <http://www.w3.org/ns/dqv#hasQualityAnnotation>
+                [ a             <http://www.w3.org/ns/dqv#QualityAnnotation> ;
+                  <http://www.w3.org/ns/dqv#inDimension>
+                          <iso:Accuracy> ;
+                  prov:hasBody  [ rdf:value  "Nøyaktigheten avhenger av at den enkelte virksomhet rapporterer endringer til Enhetsregisteret, jfr. https://lovdata.no/lov/1994-06-03-15/§15.   \n "@nb ]
+                ] ;
+        <http://www.w3.org/ns/dqv#hasQualityAnnotation>
+                [ a             <http://www.w3.org/ns/dqv#QualityAnnotation> ;
+                  <http://www.w3.org/ns/dqv#inDimension>
+                          <iso:Relevance> ;
+                  prov:hasBody  [ rdf:value  "- Velegnet for gjenbruk, pre-utfylling og kontroll av opplysninger.                                              \n\n- §22 i Lov om Enhetsregisteret; Sammenstilling av opplysninger om person kan bare gis når det gjelder personens registrerte tilknytning til næringsvirksomhet."@nb ]
+                ] ;
+        <http://www.w3.org/ns/dqv#hasQualityAnnotation>
+                [ a             <http://www.w3.org/ns/dqv#QualityAnnotation> ;
+                  <http://www.w3.org/ns/dqv#inDimension>
+                          <iso:Availability> ;
+                  prov:hasBody  [ rdf:value  "Offentlige aktører og foretak som har konsesjon for å drive kredittopplysningsforetak har tilgang på fødselsnummer. Andre private aktører har bare tilgang til fødselsdato. "@nb ]
+                ] ;
+        <http://www.w3.org/ns/dqv#hasQualityAnnotation>
+                [ a             <http://www.w3.org/ns/dqv#QualityAnnotation> ;
+                  <http://www.w3.org/ns/dqv#inDimension>
+                          <iso:Completeness> ;
+                  prov:hasBody  [] 
+                ] .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/2eb14f3e-53d8-4379-aa42-130c96dd49fd>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/43620" ;
+        skos:definition  "type virksomhet underlagt offentlig  forvaltning"@nb , "type verksemd underlagd offentleg  forvaltning"@nn ;
+        skos:prefLabel   "organisasjonsledd"@nb .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/cc7ff4a0-32ad-41f8-8cb6-90615055c904>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/59708" ;
+        skos:altLabel    "formål, art/bransje"@nb ;
+        skos:definition  "beskrivelse av aktiviteten som virksomheten utfører"@nb ;
+        skos:prefLabel   "aktivitet/bransje"@nb .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/1d1c39d9-0e33-46e3-a768-57536997f1a3>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/66397" ;
+        skos:definition  "nummerering av kommuner i henhold til Statistisk sentralbyrå sin offisielle liste"@nb ;
+        skos:prefLabel   "kommunenummer"@nb .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/eecd1d2e-83f4-45ad-a8e0-09032ae422f6>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/52200" ;
+        skos:definition  "navn på gate, veg, sti, plass eller område [...]"@nb ;
+        skos:prefLabel   "adressenavn"@nb .
+
+<https://datasets.fellesdatakatalog.digdir.no/datasets/68d08f28-a16d-4fab-a953-ed4ab08ce2e2>
+        a                  dcat:CatalogRecord ;
+        dct:identifier     "68d08f28-a16d-4fab-a953-ed4ab08ce2e2" ;
+        dct:isPartOf       <https://datasets.fellesdatakatalog.digdir.no/catalogs/54fd73f2-0e70-35dc-bce3-20b129759cfd> ;
+        dct:issued         "2018-10-31T01:00:28Z"^^xsd:dateTime ;
+        dct:modified       "2021-01-04T14:07:21.962Z"^^xsd:dateTime ;
+        foaf:primaryTopic  <http://brreg.no/catalogs/974760673/datasets/ef600ed8-cba1-4bc4-863f-6d41c836f18c> .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/7af763ec-fd42-415f-9ef2-9571b25f23a4>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/76307" ;
+        skos:definition  "det offisielle navnet på en næringsdrivende juridisk person og kjennetegnet for et enkeltpersonforetak"@nb ;
+        skos:prefLabel   "foretaksnavn"@nb .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/de5b25ad-521f-4fbd-af51-7486129c6a6f>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/43615" ;
+        skos:definition  "informasjon som en avsender trenger for å kommunisere med en mottaker "@nb , "informasjon som ein avsendar treng for å kommunisere med ein mottakar "@nn ;
+        skos:prefLabel   "kontaktinformasjon"@nb .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/0684bc25-1787-42b0-ae2a-732de4b32274>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/83642" ;
+        skos:definition  "datoen vedtektene ble godkjent av kompetent organ"@nb , "datoen vedtektene blei godkjent av kompetent organ"@nn ;
+        skos:prefLabel   "vedtektsdato"@nb .
+
+<http://publications.europa.eu/resource/authority/language/NOR>
+        a               dct:LinguisticSystem ;
+        <http://publications.europa.eu/ontology/authority/authority-code>
+                "NOR" ;
+        skos:prefLabel  "Norsk"@nb .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/b133dbfb-65d7-4ab6-8792-0046a20a81ff>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/55180" ;
+        skos:definition  "deling av en virksomhet i to eller flere virksomheter, uten at det skjer noen reell endring i eierforholdet"@nb ;
+        skos:prefLabel   "fisjon"@nb .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/3a2deaf3-c09a-487b-bb6a-92f1306cd709>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/52201" ;
+        skos:definition  "et nummer og en eventuell bokstav som entydig identifiserer eiendommer, anlegg, bygninger eller innganger til bygninger innenfor en adresserbar gate, veg, sti, plass eller område"@nb ;
+        skos:prefLabel   "adressenummer"@nb .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/f6639f5e-280e-4dbb-991e-3faca3bf622c>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/28155" ;
+        skos:definition  "nisifret, informasjonsløst nummer som entydig identifiserer virksomheter i Enhetsregisteret "@nb ;
+        skos:prefLabel   "organisasjonsnummer"@nb .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/43b2a308-1f93-472b-99d8-ede1801dd39e>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/43494" ;
+        skos:definition  "virksomhet på øverste nivå i registreringsstrukturen i Enhetsregisteret"@nb ;
+        skos:prefLabel   "hovedenhet"@nb .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/70292128-09f5-4db9-bc72-967442bfbb45>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/52101" ;
+        skos:definition  "navn på geografiske lokaliteter eller steder"@nb , "namn på geografiske lokalitetar eller stader"@nn ;
+        skos:prefLabel   "stedsadresse"@nb .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/d0d17b2f-6348-4800-9601-7476e565fa69>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/52099" ;
+        skos:definition  "adresse for å nå noen eller noe levert til en postboks"@nb ;
+        skos:prefLabel   "postboksadresse"@nb .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/bdbf5d43-9407-469d-b129-2b9c3ecb0951>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/43188" ;
+        skos:altLabel    "enhet, virksomhet i Enhetsregisteret, registreringsenhet"@nb ;
+        skos:definition  "alle som har registreringsrett i Enhetsregisteret"@nb ;
+        skos:prefLabel   "virksomhet"@nb .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/ab5b81db-a47d-4666-838b-3aac4cbe8bd9>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/43637" ;
+        skos:definition  "opplysning i Enhetsregisteret som innebærer at en fysisk eller juridisk person er registrert med en funksjon i eller for en registrert virksomhet"@nb ;
+        skos:prefLabel   "rolle i Enhetsregisteret"@nb .
+
+<https://fellesdatakatalog.brreg.no/api/concepts/b8e71785-997b-45e9-aadc-057160482fae>
+        a                skos:Concept ;
+        dct:identifier   "http://data.brreg.no/begrep/45759" ;
+        skos:definition  "inndeling av virksomheter i forskjellige typer ut fra egenskaper disse har til felles \r\n "@nb ;
+        skos:prefLabel   "organisasjonsform"@nb .
