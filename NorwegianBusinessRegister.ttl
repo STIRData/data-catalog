@@ -159,7 +159,9 @@
                                                            ]
                                         ] ;
         dcat:keyword                    "Virksomhet"@nb , "Underenhet"@nb , "Foretaksregisteret"@nb , "Enhet"@nb , "Rolleopplysninger"@nb , "Brønnøysundregistrene"@nb , "Foretak"@nb , "Styremedlem"@nb , "Næringsliv"@nb , "Bedrift"@nb , "organisasjonsform "@nb , "Grunndata"@nb , "Daglig leder"@nb ;
-        dcat:landingPage                <https://www.brreg.no/om-oss/oppgavene-vare/alle-registrene-vare/om-enhetsregisteret/> ;
+        dcat:landingPage                [ a foaf:Document ;
+                                          dct:source  <https://www.brreg.no/om-oss/oppgavene-vare/alle-registrene-vare/om-enhetsregisteret/> ;
+                                        ] ;
         dcat:theme                      <http://publications.europa.eu/resource/authority/data-theme/JUST> , <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
         <http://www.w3.org/ns/dqv#hasQualityAnnotation>
                 [ a             <http://www.w3.org/ns/dqv#QualityAnnotation> ;
