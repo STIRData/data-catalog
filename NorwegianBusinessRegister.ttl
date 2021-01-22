@@ -112,11 +112,7 @@
         dcat:distribution               [ a                dcat:Distribution ;
                                           dct:description  "Datasett som inneholder sektorkoder som brukes til institusjonell sektorgruppering i Norge. Institusjonell sektorgruppering er en statistisk standard, som benyttes i nasjonalregnskapet, men også i annen statistikk og i økonomiske analyser. Opplysningene inngår i datasettet for Enhetsregisteret. Denne tjenesten tilbyr både manuelle og maskinelle oppslag, samt nedlastning av datasettet. "@nb ;
                                           dct:format
-                                            <http://publications.europa.eu/resource/authority/file-type/CSV> ,
-                                            <http://publications.europa.eu/resource/authority/file-type/JSON> ,
-                                            ### couldn't find this one on the list: "application/javascript" ,
-                                            ### couldn't find this one on the list: "application/x.yaml" ,
-                                            <http://publications.europa.eu/resource/authority/file-type/XML> ;
+                                            <http://publications.europa.eu/resource/authority/file-type/CSV> ;
                                           dct:title        "Sektorkoder i Enhetsregisteret"@nb ;
                                           dcat:accessURL <https://hotell.difi.no/application.wadl> ;
                                           foaf:page        [ a           foaf:Document , skos:Concept ;
@@ -127,7 +123,6 @@
                                           dct:description   "Denne tjenesten tilbyr både manuelle og maskinelle oppslag, samt nedlasting av datasettet. Tjenesten er delt i to ulike datasett, hovedenheter og underenheter, og presenterer utvalgte dataelement fra Enhets- og Foretaksregisteret. "@nb ;
                                           dct:format
                                               <http://publications.europa.eu/resource/authority/file-type/JSON> ;
-                                              ### couldn't find this one on the list: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" ;
                                           dct:title         "Data fra Enhetsregisteret"@nb ;
                                           dcat:accessURL    <https://data.brreg.no/enhetsregisteret/oppslag/enheter> ;
                                           dcat:downloadURL  <https://data.brreg.no/enhetsregisteret/oppslag/enheter> ;
@@ -138,11 +133,7 @@
         dcat:distribution               [ a                dcat:Distribution ;
                                           dct:description  "Denne tjenesten tilbyr både manuelle og maskinelle oppslag, samt nedlasting av datasettet. "@nb ;
                                           dct:format
-                                              <http://publications.europa.eu/resource/authority/file-type/XML> ,
-                                              <http://publications.europa.eu/resource/authority/file-type/CSV> ,
-                                              <http://publications.europa.eu/resource/authority/file-type/JSON> ;
-                                              ### couldn't find this one on the list: "application/javascript" ,
-                                              ### couldn't find this one on the list: "application/x.yaml" ;
+                                              <http://publications.europa.eu/resource/authority/file-type/CSV> ;
                                           dct:title        "Næringskoder i Enhetsregisteret"@nb ;
                                           dcat:accessURL   <https://hotell.difi.no/?dataset=brreg/naeringskode> ;
                                           foaf:page        [ a           foaf:Document , skos:Concept ;
