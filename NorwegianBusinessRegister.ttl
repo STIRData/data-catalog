@@ -59,6 +59,7 @@
 
 <http://brreg.no/catalogs/974760673/datasets/ef600ed8-cba1-4bc4-863f-6d41c836f18c>
         a                               dcat:Dataset ;
+        dct:identifier "http://brreg.no/catalogs/974760673/datasets/ef600ed8-cba1-4bc4-863f-6d41c836f18c"^^xsd:anyURI ;
         dcatno:legalBasisForAccess      [ a               dct:RightsStatement , skos:Concept ;
                                           dct:source      "https://lovdata.no/dokument/NL/lov/1994-06-03-15/KAPITTEL_6#§22" ;
                                           skos:prefLabel  "Lov om Enhetsregisteret §22"@nb
@@ -117,7 +118,7 @@
                                             ### couldn't find this one on the list: "application/x.yaml" ,
                                             <http://publications.europa.eu/resource/authority/file-type/XML> ;
                                           dct:title        "Sektorkoder i Enhetsregisteret"@nb ;
-                                          dcat:accessURL <https://hotell.difi.no/application.wadl> ; 
+                                          dcat:accessURL <https://hotell.difi.no/application.wadl> ;
                                           foaf:page        [ a           foaf:Document , skos:Concept ;
                                                              dct:source  "https://hotell.difi.no/application.wadl"
                                                            ]
