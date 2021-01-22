@@ -99,7 +99,7 @@
                                         ] ;
         dcat:distribution               [ a                dcat:Distribution ;
                                           dct:description  "Tjenesten gir en utvidet tilgang til opplysninger fra Enhets- og Foretaksregisteret som blant annet inneholder roller og signatur/prokura- bestemmelser. Offentlig forvaltning og kredittopplysningsforetak har tilgang til fødselsnummer på roller og signatur/prokura. Alle andre har tilgang til fødselsdato. Denne tjenesten er gratis for virksomheter i offentlig forvaltning, mens private virksomheter må betale for data. Alle må tegne avtale for å få tilgang."@nb ;
-                                          dct:format       "application/xml" ;
+                                          dct:format       <http://publications.europa.eu/resource/authority/file-type/XML> ;
                                           dct:title        "Tilgang til Enhetsregisteret via Web Services "@nb ;
                                           dcat:accessURL   <https://www.brreg.no/produkter-og-tjenester/bestille-produkter/maskinlesbare-data-enhetsregisteret/full-tilgang-enhetsregisteret/> ;
                                           foaf:page        [ a           foaf:Document , skos:Concept ;
@@ -108,7 +108,12 @@
                                         ] ;
         dcat:distribution               [ a                dcat:Distribution ;
                                           dct:description  "Datasett som inneholder sektorkoder som brukes til institusjonell sektorgruppering i Norge. Institusjonell sektorgruppering er en statistisk standard, som benyttes i nasjonalregnskapet, men også i annen statistikk og i økonomiske analyser. Opplysningene inngår i datasettet for Enhetsregisteret. Denne tjenesten tilbyr både manuelle og maskinelle oppslag, samt nedlastning av datasettet. "@nb ;
-                                          dct:format       "text/csv" , "application/json" , "application/javascript" , "application/x.yaml" , "application/xml" ;
+                                          dct:format
+                                            <http://publications.europa.eu/resource/authority/file-type/CSV> ,
+                                            <http://publications.europa.eu/resource/authority/file-type/JSON> ,
+                                            ### couldn't find this one on the list: "application/javascript" ,
+                                            ### couldn't find this one on the list: "application/x.yaml" ,
+                                            <http://publications.europa.eu/resource/authority/file-type/XML> ;
                                           dct:title        "Sektorkoder i Enhetsregisteret"@nb ;
                                           foaf:page        [ a           foaf:Document , skos:Concept ;
                                                              dct:source  "https://hotell.difi.no/application.wadl"
@@ -116,7 +121,9 @@
                                         ] ;
         dcat:distribution               [ a                 dcat:Distribution ;
                                           dct:description   "Denne tjenesten tilbyr både manuelle og maskinelle oppslag, samt nedlasting av datasettet. Tjenesten er delt i to ulike datasett, hovedenheter og underenheter, og presenterer utvalgte dataelement fra Enhets- og Foretaksregisteret. "@nb ;
-                                          dct:format        "application/json" , "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" ;
+                                          dct:format
+                                              <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+                                              ### couldn't find this one on the list: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" ;
                                           dct:title         "Data fra Enhetsregisteret"@nb ;
                                           dcat:accessURL    <https://data.brreg.no/enhetsregisteret/oppslag/enheter> ;
                                           dcat:downloadURL  <https://data.brreg.no/enhetsregisteret/oppslag/enheter> ;
@@ -126,7 +133,12 @@
                                         ] ;
         dcat:distribution               [ a                dcat:Distribution ;
                                           dct:description  "Denne tjenesten tilbyr både manuelle og maskinelle oppslag, samt nedlasting av datasettet. "@nb ;
-                                          dct:format       "application/xml" , "text/csv" , "application/json" , "application/javascript" , "application/x.yaml" ;
+                                          dct:format
+                                              <http://publications.europa.eu/resource/authority/file-type/XML> ,
+                                              <http://publications.europa.eu/resource/authority/file-type/CSV> ,
+                                              <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+                                              ### couldn't find this one on the list: "application/javascript" ,
+                                              ### couldn't find this one on the list: "application/x.yaml" ;
                                           dct:title        "Næringskoder i Enhetsregisteret"@nb ;
                                           dcat:accessURL   <https://hotell.difi.no/?dataset=brreg/naeringskode> ;
                                           foaf:page        [ a           foaf:Document , skos:Concept ;
@@ -135,7 +147,7 @@
                                         ] ;
         dcat:distribution               [ a                dcat:Distribution ;
                                           dct:description  "Her finner du en oversikt over de ulike organisasjonsformene vi registrerer, med norsk og engelsk beskrivelse.\n\n "@nb ;
-                                          dct:format       "text/html" ;
+                                          dct:format       <http://publications.europa.eu/resource/authority/file-type/HTML> ;
                                           dct:title        "Organisasjonsformer i Enhetsregisteret"@nb ;
                                           dcat:accessURL   <https://www.brreg.no/bedrift/organisasjonsformer/> ;
                                           foaf:page        [ a           foaf:Document , skos:Concept ;
@@ -173,7 +185,7 @@
                 [ a             <http://www.w3.org/ns/dqv#QualityAnnotation> ;
                   <http://www.w3.org/ns/dqv#inDimension>
                           <iso:Completeness> ;
-                  prov:hasBody  [] 
+                  prov:hasBody  []
                 ] .
 
 <https://fellesdatakatalog.brreg.no/api/concepts/2eb14f3e-53d8-4379-aa42-130c96dd49fd>
