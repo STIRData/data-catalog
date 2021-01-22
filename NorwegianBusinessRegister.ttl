@@ -57,7 +57,7 @@
         skos:definition  "person som utfører revisjon og slik kontrollerer at de økonomiske forholdene i en virksomhet er i henhold til gjeldende lover og regler"@nb ;
         skos:prefLabel   "revisor"@nb .
 
-<http://brreg.no/catalogs/974760673/datasets/ef600ed8-cba1-4bc4-863f-6d41c836f18c>
+<https://stirdata.opendata.cz/resource/dataset/brreg/ef600ed8-cba1-4bc4-863f-6d41c836f18c>
         a                               dcat:Dataset ;
         dct:identifier "http://brreg.no/catalogs/974760673/datasets/ef600ed8-cba1-4bc4-863f-6d41c836f18c"^^xsd:anyURI ;
         dcatno:legalBasisForAccess      [ a               dct:RightsStatement , skos:Concept ;
