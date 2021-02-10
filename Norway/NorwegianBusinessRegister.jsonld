@@ -612,6 +612,14 @@
         {
           "@language": "nb",
           "@value": "Underenhet"
+        },
+        {
+          "@language": "en",
+          "@value": "Norway"
+        },
+        {
+          "@language": "en",
+          "@value": "input"
         }
       ],
       "http://www.w3.org/ns/dcat#landingPage": [
