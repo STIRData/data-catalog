@@ -13,7 +13,7 @@
   ],
   "http://purl.org/dc/terms/description": [
     {
-      "@value": "(Google Translated): The data set provides mandatory and optional data corresponding to the type of legal form of Joint-stock company linked to the Complete Statement for 2020 according to the relevant court - Prague. Mandatory data for this type of legal form is file number, legal form, name, registered office, identification number, statutory body, system of legal entity bodies, member of statutory body, number of members of statutory body, manner of negotiations list of shares, shares, share capital, board of directors , number of members of the Board of Directors, Supervisory Board, member of the Supervisory Board, number of members of the Supervisory Board, subjects of activity / business. Optional data are the representation of the legal entity in the statutory body, the representation of the legal entity in the Board of Directors, the representation of the legal entity in the Supervisory Board, sole shareholder, power of attorney, procurator, joint text for all proxies, joint text for all members of the Supervisory Board fact, branch plants, head of branch plant, EUID, liquidator, representation of legal entity of liquidator, common text to all liquidators, data on insolvency, legal reason for deletion, data on subordination of law, data on execution, data on executions.",
+      "@value": "This is an example of one of a series of datasets, which are per region, per year, per legal form and per level of completeness. (Google Translated): The data set provides mandatory and optional data corresponding to the type of legal form of Joint-stock company linked to the Complete Statement for 2020 according to the relevant court - Prague. Mandatory data for this type of legal form is file number, legal form, name, registered office, identification number, statutory body, system of legal entity bodies, member of statutory body, number of members of statutory body, manner of negotiations list of shares, shares, share capital, board of directors , number of members of the Board of Directors, Supervisory Board, member of the Supervisory Board, number of members of the Supervisory Board, subjects of activity / business. Optional data are the representation of the legal entity in the statutory body, the representation of the legal entity in the Board of Directors, the representation of the legal entity in the Supervisory Board, sole shareholder, power of attorney, procurator, joint text for all proxies, joint text for all members of the Supervisory Board fact, branch plants, head of branch plant, EUID, liquidator, representation of legal entity of liquidator, common text to all liquidators, data on insolvency, legal reason for deletion, data on subordination of law, data on execution, data on executions.",
       "@language": "en"
     },
     {
@@ -84,7 +84,9 @@
     {
       "@type": "http://www.w3.org/ns/dcat#Distribution",
       "@id": "https://stirdata.opendata.cz/resource/dataset/czechia/https---dataor.justice.cz-api-3-action-package_show-id-as-full-praha-2020/distribution/0",
-      "http://purl.org/dc/terms/license": "https://dataor.justice.cz/files/ISVR_OpenData_Podminky_uziti.pdf",
+      "http://purl.org/dc/terms/license": {
+        "@id": "https://dataor.justice.cz/files/ISVR_OpenData_Podminky_uziti.pdf"
+      },
       "http://www.w3.org/ns/dcat#downloadURL": "https://dataor.justice.cz/api/file/as-full-praha-2020.xml.gz",
       "http://www.w3.org/ns/dcat#accessURL": "https://dataor.justice.cz/api/file/as-full-praha-2020.xml.gz",
       "http://www.w3.org/ns/dcat#mediaType": {
@@ -100,7 +102,9 @@
     {
       "@type": "http://www.w3.org/ns/dcat#Distribution",
       "@id": "https://stirdata.opendata.cz/resource/dataset/czechia/https---dataor.justice.cz-api-3-action-package_show-id-as-full-praha-2020/distribution/1",
-      "http://purl.org/dc/terms/license": "https://dataor.justice.cz/files/ISVR_OpenData_Podminky_uziti.pdf",
+      "http://purl.org/dc/terms/license": {
+        "@id": "https://dataor.justice.cz/files/ISVR_OpenData_Podminky_uziti.pdf"
+      },
       "http://www.w3.org/ns/dcat#downloadURL": "https://dataor.justice.cz/api/file/as-full-praha-2020.csv",
       "http://www.w3.org/ns/dcat#accessURL": "https://dataor.justice.cz/api/file/as-full-praha-2020.csv",
       "http://www.w3.org/ns/dcat#mediaType": {
@@ -113,7 +117,9 @@
     {
       "@type": "http://www.w3.org/ns/dcat#Distribution",
       "@id": "https://stirdata.opendata.cz/resource/dataset/czechia/https---dataor.justice.cz-api-3-action-package_show-id-as-full-praha-2020/distribution/2",
-      "http://purl.org/dc/terms/license": "https://dataor.justice.cz/files/ISVR_OpenData_Podminky_uziti.pdf",
+      "http://purl.org/dc/terms/license": {
+        "@id": "https://dataor.justice.cz/files/ISVR_OpenData_Podminky_uziti.pdf"
+      },
       "http://www.w3.org/ns/dcat#downloadURL": "https://dataor.justice.cz/api/file/as-full-praha-2020.csv.gz",
       "http://www.w3.org/ns/dcat#accessURL": "https://dataor.justice.cz/api/file/as-full-praha-2020.csv.gz",
       "http://www.w3.org/ns/dcat#mediaType": {
@@ -129,7 +135,9 @@
     {
       "@type": "http://www.w3.org/ns/dcat#Distribution",
       "@id": "https://stirdata.opendata.cz/resource/dataset/czechia/https---dataor.justice.cz-api-3-action-package_show-id-as-full-praha-2020/distribution/3",
-      "http://purl.org/dc/terms/license": "https://dataor.justice.cz/files/ISVR_OpenData_Podminky_uziti.pdf",
+      "http://purl.org/dc/terms/license": {
+        "@id": "https://dataor.justice.cz/files/ISVR_OpenData_Podminky_uziti.pdf"
+      },
       "http://www.w3.org/ns/dcat#downloadURL": "https://dataor.justice.cz/api/file/as-full-praha-2020.xml",
       "http://www.w3.org/ns/dcat#accessURL": "https://dataor.justice.cz/api/file/as-full-praha-2020.xml",
       "http://www.w3.org/ns/dcat#mediaType": {
