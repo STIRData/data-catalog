@@ -23,7 +23,7 @@
   ],
   "http://purl.org/dc/terms/spatial": [
     {
-      "@id": ""
+      "@id": "http://publications.europa.eu/resource/authority/country/CZE"
     }
   ],
   "http://www.w3.org/ns/dcat#keyword": [
@@ -43,7 +43,9 @@
   "http://purl.org/dc/terms/accrualPeriodicity": {
     "@id": "http://publications.europa.eu/resource/authority/frequency/CONT"
   },
-  "http://xmlns.com/foaf/0.1/page": "https://wwwinfo.mfcr.cz/ares/ares_xml_res.html.en",
+  "http://xmlns.com/foaf/0.1/page": {
+    "@id": "https://wwwinfo.mfcr.cz/ares/ares_xml_res.html.en"
+  },
   "http://www.w3.org/ns/dcat#theme": [
     {
       "@id": "http://publications.europa.eu/resource/authority/data-theme/ECON"
@@ -66,7 +68,9 @@
           "@language": "en"
         }
       ],
-      "http://purl.org/dc/terms/license": "https://wwwinfo.mfcr.cz/ares/ares_xml.html.en",
+      "http://purl.org/dc/terms/license": {
+        "@id": "https://wwwinfo.mfcr.cz/ares/ares_xml_res.html.en"
+      },
       "http://www.w3.org/ns/dcat#accessURL": {
         "@id": "https://wwwinfo.mfcr.cz/cgi-bin/ares/darv_res.cgi"
       },
