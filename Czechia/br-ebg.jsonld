@@ -37,9 +37,9 @@
       "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
     }
   },
-  "http://purl.org/dc/terms/conformsTo": [
-    "https://stirdata.github.io/data-specification/"
-    ],
+  "http://purl.org/dc/terms/conformsTo": [ {
+    "@id": "https://stirdata.github.io/data-specification/"
+  }  ],
   "http://www.w3.org/ns/dcat#keyword": [
     {
       "@language": "en",
