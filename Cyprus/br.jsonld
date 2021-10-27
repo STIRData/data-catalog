@@ -1,0 +1,114 @@
+{
+  "@id": "https://stirdata.opendata.cz/resource/dataset/cyprus/",
+  "@type": "http://www.w3.org/ns/dcat#Dataset",
+  "http://purl.org/dc/terms/title": [
+    {
+      "@value": "Register of companies registered in Cyprus - STIRData model",
+      "@language": "en"
+    },
+    {
+      "@value": "Μητρώο εγγεγραμμένων εταιρειών στην Κύπρο  - STIRDATA model",
+      "@language": "el"
+    }
+  ],
+  "http://purl.org/dc/terms/description": [
+    {
+      "@value": "This dataset contains data from the register of companies registered in Cyprus according to the STIRData model. It is based on data from CSV distributions of https://www.data.gov.cy/node/4016?language=en",
+      "@language": "en"
+    }
+  ],
+  "http://purl.org/dc/terms/spatial": [
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/CYP"
+    }
+  ],
+  "http://purl.org/dc/terms/temporal": {
+    "@type": "http://purl.org/dc/terms/PeriodOfTime",
+    "http://www.w3.org/ns/dcat#endDate": {
+      "@value": "2021-09-28",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "http://www.w3.org/ns/dcat#keyword": [
+    {
+      "@language": "en",
+      "@value": "Business Register"
+    },
+    {
+      "@language": "en",
+      "@value": "Cyprus"
+    }
+  ],
+  "http://purl.org/dc/terms/accrualPeriodicity": {
+    "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
+  },
+  "http://www.w3.org/ns/dcat#theme": [
+    {
+      "@id": "http://publications.europa.eu/resource/authority/data-theme/ECON"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+    },
+    {
+      "@id": "http://eurovoc.europa.eu/813"
+    },
+    {
+      "@id": "http://eurovoc.europa.eu/1307"
+    },
+    {
+      "@id": "http://eurovoc.europa.eu/100152"
+    },
+    {
+      "@id": "http://eurovoc.europa.eu/4703"
+    }
+  ],
+  "http://purl.org/dc/terms/conformsTo": [
+    {
+      "@id": "https://stirdata.github.io/data-specification/"
+    }
+  ],
+  "http://www.w3.org/ns/dcat#contactPoint": {},
+  "http://purl.org/dc/terms/publisher": {
+    "@id": "https://lod.stirdata.eu/data/agency/el/iccs"
+  },
+  "http://www.w3.org/ns/dcat#distribution": [
+    {
+      "@type": "http://www.w3.org/ns/dcat#Distribution",
+      "@id": "https://stirdata.opendata.cz/resource/dataset/cyprus//distribution/0",
+      "http://purl.org/dc/terms/title": [
+        {
+          "@value": "SPARQL endpoint - OpenLink Virtuoso",
+          "@language": "en"
+        }
+      ],
+      "http://purl.org/dc/terms/license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "http://www.w3.org/ns/dcat#accessURL": {
+        "@id": "https://stirdata-semantic.ails.ece.ntua.gr/api/content/cy/sparql"
+      },
+      "http://www.w3.org/ns/dcat#accessService": {
+        "@type": "http://www.w3.org/ns/dcat#DataService",
+        "http://www.w3.org/ns/dcat#endpointURL": {
+          "@id": "https://stirdata-semantic.ails.ece.ntua.gr/api/content/cy/sparql"
+        },
+        "http://www.w3.org/ns/dcat#endpointDescription": {
+          "@id": "https://stirdata-semantic.ails.ece.ntua.gr/api/content/cy/sparql"
+        },
+        "@id": "https://stirdata.opendata.cz/resource/dataset/cyprus//distribution/0/data-service",
+        "http://purl.org/dc/terms/title": [
+          {
+            "@value": "SPARQL endpoint - OpenLink Virtuoso",
+            "@language": "en"
+          }
+        ],
+        "http://www.w3.org/ns/dcat#servesDataset": {
+          "@id": "https://stirdata.opendata.cz/resource/dataset/cyprus/"
+        },
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://www.w3.org/TR/sparql11-protocol/"
+        }
+      }
+    }
+  ]
+}
