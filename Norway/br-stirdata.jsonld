@@ -1,0 +1,103 @@
+{
+  "@id": "https://stirdata.opendata.cz/resource/dataset/norway/",
+  "@type": "http://www.w3.org/ns/dcat#Dataset",
+  "http://purl.org/dc/terms/title": [
+    {
+      "@value": "Company Register of Norway - STIRData model",
+      "@language": "en"
+    }
+  ],
+  "http://purl.org/dc/terms/description": [
+    {
+      "@value": "This dataset contains data from the company register of Norway according to the STIRData model. It is based on data from JSON distributions of https://data.brreg.no/enhetsregisteret/oppslag/enheter",
+      "@language": "en"
+    }
+  ],
+  "http://purl.org/dc/terms/spatial": [
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/NOR"
+    }
+  ],
+  "http://www.w3.org/ns/dcat#keyword": [
+    {
+      "@language": "en",
+      "@value": "Business Register"
+    },
+    {
+      "@language": "en",
+      "@value": "Finland"
+    }
+  ],
+  "http://purl.org/dc/terms/accrualPeriodicity": {
+    "@id": "http://publications.europa.eu/resource/authority/frequency/DAILY"
+  },
+  "http://www.w3.org/ns/dcat#theme": [
+    {
+      "@id": "http://publications.europa.eu/resource/authority/data-theme/ECON"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+    },
+    {
+      "@id": "http://eurovoc.europa.eu/813"
+    },
+    {
+      "@id": "http://eurovoc.europa.eu/1307"
+    },
+    {
+      "@id": "http://eurovoc.europa.eu/100152"
+    },
+    {
+      "@id": "http://eurovoc.europa.eu/4703"
+    }
+  ],
+  "http://purl.org/dc/terms/conformsTo": [
+    {
+      "@id": "https://stirdata.github.io/data-specification/"
+    }
+  ],
+  "http://www.w3.org/ns/dcat#contactPoint": {},
+  "http://purl.org/dc/terms/publisher": {
+    "@id": "https://lod.stirdata.eu/data/agency/el/iccs"
+  },
+  "http://www.w3.org/ns/dcat#distribution": [
+    {
+      "@type": "http://www.w3.org/ns/dcat#Distribution",
+      "@id": "https://stirdata.opendata.cz/resource/dataset/norway//distribution/0",
+      "http://purl.org/dc/terms/title": [
+        {
+          "@value": "SPARQL endpoint - OpenLink Virtuoso",
+          "@language": "en"
+        }
+      ],
+      "http://purl.org/dc/terms/license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "http://www.w3.org/ns/dcat#accessURL": {
+        "@id": "https://stirdata-semantic.ails.ece.ntua.gr/api/content/no/sparql"
+      },
+      "http://www.w3.org/ns/dcat#accessService": {
+        "@type": "http://www.w3.org/ns/dcat#DataService",
+        "http://www.w3.org/ns/dcat#endpointURL": {
+          "@id": "https://stirdata-semantic.ails.ece.ntua.gr/api/content/no/sparql"
+        },
+        "http://www.w3.org/ns/dcat#endpointDescription": {
+          "@id": "https://stirdata-semantic.ails.ece.ntua.gr/api/content/no/sparql"
+        },
+        "@id": "https://stirdata.opendata.cz/resource/dataset/norway//distribution/0/data-service",
+        "http://purl.org/dc/terms/title": [
+          {
+            "@value": "SPARQL endpoint - OpenLink Virtuoso",
+            "@language": "en"
+          }
+        ],
+        "http://www.w3.org/ns/dcat#servesDataset": {
+          "@id": "https://stirdata.opendata.cz/resource/dataset/norway/"
+        },
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://www.w3.org/TR/sparql11-protocol/"
+        }
+      }
+    }
+  ]
+}
